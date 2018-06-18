@@ -1,0 +1,17 @@
+W3SCHOOL LINKS:
+
+https://www.w3schools.com/howto/howto_js_image_comparison.asp
+https://www.w3schools.com/howto/howto_css_round_buttons.asp
+https://www.w3schools.com/howto/howto_css_arrows.asp
+https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+https://www.w3schools.com/howto/howto_js_filter_elements.asp
+https://www.w3schools.com/howto/howto_js_portfolio_filter.asp
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+https://www.w3schools.com/howto/howto_js_topnav.asp
+https://www.w3schools.com/css/css3_images.asp
+
+
+
+https://tableless.com.br/criando-listras-com-css3/

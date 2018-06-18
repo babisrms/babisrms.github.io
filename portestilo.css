@@ -1,0 +1,464 @@
+
+
+body {
+	margin: 0;
+	padding:0;
+	overflow-x: hidden;
+}
+
+/*configuração da nav bar*/
+header {
+	display: inline;
+	margin-top:-1vh;
+}
+
+nav {
+	width: 100vw;
+	height: 7vh;
+	background-color:  #FFFFFF;
+}
+
+nav ul {
+	list-style:  none;
+	text-align:  right;
+	padding:  0;
+	margin:  0;
+	margin-top:-2vh;
+	width: 540px;
+	float: right;
+}
+
+nav li {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-size:  1.0em;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #888;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	transition: 1s background-color;
+	border-radius: 20%;
+}
+
+nav a:hover {
+	background-color: #87DAFF;
+	color: #FFFFFF;
+	border-radius: 20%;
+}
+
+nav a:focus {
+	background-color:  #fff;
+	color:  #444;
+	cursor:  default;
+	border-radius: 20%;
+}
+
+/*responsividade da nav bar*/
+nav li {
+	width:  90px;
+	border-bottom:  none;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.0em;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: -4px;
+
+}
+
+
+#cabecalho{
+	position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index:4;
+}
+
+#primeiro{
+	width: 215px;
+	margin: 2vh;
+	padding: 0;
+	float: left;
+	font-family: 'Caveat Brush';
+}
+
+#segundo{
+	width: 215px;
+	margin: 3vh;
+	padding: 0;
+	float: left;
+	font-family: 'Open Sans';
+	color: #d3d3d3;
+ 
+}
+
+#menu {
+	background-color: #FFFFFF;
+	background-position: center;
+	width: 100vw;
+  	height: 80vh;
+  	padding-top: 12%;
+  	/*display: grid;*/
+
+}
+
+#img1 {
+	display: block;
+	width: 100vw;
+	text-align: center;
+}
+
+#txt1 {
+	text-align: center;
+	font-family:'Playfair Display';
+    z-index: 2;
+    position: relative;
+   	right: -325px;
+   	top: -310px;
+   	font-size:  1.2em;
+   	z-index: 1;
+}
+
+#t1 {
+	font-family: 'Open Sans';
+	font-size:  1.0em;
+}
+
+#ft1 {
+    height: 80vh;
+    position: relative;
+    top: -90px;  
+}
+
+#ft2 {
+	width: 25px;
+    height: 25px;
+    position: relative;
+   	right: 275px;
+   	top: -255px;
+
+}
+
+
+#bio {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100vw;
+  	height: 100vh;
+  	padding-top: 2%;
+}
+
+#txt2 {
+	width: 80vw;
+	height: 100px;
+    position: relative;
+   	right: -180px;
+    top: 55px;
+    font-family: 'Open Sans';
+}
+
+#txt9 {
+	width: 80vw;
+	height: 100px;
+    position: relative;
+   	right: -180px;
+    top: 35px;
+    font-family: 'Open Sans';
+}
+
+#txt10 {
+	width: 80vw;
+	height: 100px;
+    position: relative;
+   	right: -180px;
+    top: 25px;
+    font-family: 'Open Sans';
+}
+
+#txt4 {
+	position: relative;
+    top: 350px;
+    font-family: 'Caveat Brush';
+    font-size:  2.5em;
+    z-index: 1;
+}
+
+#t2{
+	margin: 0;
+	font-family: 'Caveat Brush';
+	font-size:  2.5em;
+	position: relative;
+	top: 20px;
+	right: 30px;
+}
+
+#t3 {
+	font-family: 'Open Sans';
+	position: relative;
+	right: 25px;
+}
+
+
+#lateral{
+	float: left;
+	background-color: #2887B2;
+	width: 20vw;
+	height: 90vh;
+	text-align: center;
+	padding: 30px;
+}
+
+#ft4 {
+    height: 40vh;
+    position: relative;
+    right: 100px;
+    z-index: 1;
+}
+
+#ft15 {
+    height: 99vh;
+    width: 25vw;
+    position: relative;
+    top: -429px;
+    right: 39px;
+    z-index: 0;
+}
+
+#ft9 {
+	width: 70px;
+    height: 10px;
+    position: relative;
+    right: -13px;
+    top: -30px;
+}
+
+#ft5 {
+	width: 25px;
+    height: 25px;
+    position: relative;
+    right: 400px;
+    top: 100px;
+}
+
+#ft3{
+	width: 25px;
+    height: 25px;
+    position: relative;
+    right: 432px;
+    top: 200px;
+}
+
+#ft13{
+	width: 25px;
+    height: 25px;
+    position: relative;
+    right: 462px;
+    top: 300px;
+}
+
+#projetos {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100vw;
+  	height: 100vh;
+  	padding-top: 2%;
+}
+
+#t4 {
+	margin: 0;
+	font-family: 'Caveat Brush';
+	font-size:  2.5em;
+	position: relative;
+	top: 20px;
+}
+
+#t5 {
+	font-family: 'Open Sans';
+}
+
+#ft6 {
+	height: 60vh;
+	position: relative;
+	top: 10px;
+	float: left;
+}
+
+#ft16 {
+	height: 60vh;
+	position: relative;
+	top: 30px;
+	float: left;
+}
+
+
+
+#ft10 {
+	width: 70px;
+    height: 10px;
+    position: relative;
+    top: -20px;
+    right: 500px;
+}
+
+/*#projeto1 {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100vw;
+  	height: 100vh;
+  	padding-top: 2%;
+}*/
+
+#ft7{
+	height: 60vh;
+}
+
+#t6 {
+	font-family: 'Caveat Brush';
+}
+
+#txt7 {
+	width: 60vw;
+	position: relative;
+	left: 250px;
+	font-family: 'Open Sans';
+}
+
+#news {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100vw;
+  	height: 100vh;
+  	padding-top: 2%;
+}
+
+#ft14 {
+	width: 25px;
+    height: 25px;
+    position: relative;
+    right: 462px;
+    top: 45px;
+    right: 370px;
+}
+
+#ft11 {
+	width: 70px;
+    height: 10px;
+    position: relative;
+    top: -270px;
+    right: -238px;
+}
+
+#ft8 {
+    height: 40vh;
+    position: relative;
+    top: 40px;
+    right: 40px;
+}
+
+#txt5{
+	width: 80vw;
+	position: relative;
+    top:50px;
+    left: 130px;
+    font-family: 'Open Sans';
+}
+
+#t9 {
+
+}
+
+#t7 {
+	margin: 0;
+	font-family: 'Caveat Brush';
+	font-size:  2.5em;
+	position: relative;
+	top: 20px;
+}
+
+#t8 {
+	font-family: 'Open Sans';
+}
+
+#contact {
+	background-color: #FFFFFF;
+	text-align: center;
+	width: 100vw;
+  	height: 80vh;
+  	padding-top: 2%;
+}
+
+#ft12 {
+	width: 70px;
+    height: 10px;
+    position: relative;
+    top: -18px;
+    right: 2px;
+}
+
+#contato {
+	display: inline;
+	text-decoration: none;
+	position: relative;
+    top: 30px;
+    right: 2px;
+}
+
+#txt6 {
+	margin: 0;
+	font-family: 'Caveat Brush';
+	font-size:  2.5em;
+	position: relative;
+	top: 20px;
+}
+
+#txt8 {
+	font-family: 'Open Sans';
+}
+
+#rodape {
+	background-color: #87DAFF;
+	height: 20px;
+	padding: 10px;
+	text-align: center;
+	font-family: 'Open Sans';
+}
+
+/*personalização do form*/
+
+input{
+	height: 20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+form{
+	background-color: #FF910B;
+	width: 30%;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+	border-radius: 30px;
+    position: relative;
+    right: -450px;
+    top: 30px;
+}
+
+#contato #icone-contato span{
+	font-size: 15px;
+	color: orange;
+	text-decoration: none;
+} 
+
+/*css do jquery*/
+
+.active{
+background-color: #87DAFF;
+border-radius: 20%;
+}
